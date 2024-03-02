@@ -13,7 +13,6 @@ ul,ol{
 .visually-hidden {
     position: absolute;
     margin: -1px;
-    border: 0;
 
     white-space: nowrap;
     clip-path: inset(100%);
