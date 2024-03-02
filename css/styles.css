@@ -12,11 +12,8 @@ ul,ol{
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
     border: 0;
-    padding: 0;
 
     white-space: nowrap;
     clip-path: inset(100%);
@@ -128,11 +125,15 @@ background: #404bbf;
 
 /* ==============FEATURES================== */
 
-.features {}
+.features {
+   
+}
 
 .features-list {}
 
-.features-itm {}
+.features-itm {
+    
+}
 
 .features-subtitle {
 }
@@ -145,14 +146,16 @@ background: #404bbf;
 /* =================TEAM=================== */
 
 
-.team {}
+.team {
+    background: #f4f4fd;
+}
 
 .team-title {
 }
 
 .team-list {}
 
-.team-itm {}
+.team-itm {background: #fff;}
 
 .team-imege {}
 
